@@ -1,6 +1,6 @@
 CC=g++
-INCLUDE=./Collar
-SOURCE=src/main.cpp Collar/collar.cpp
+INCLUDE=./include
+SOURCE=./src/main.cpp ./include/collar.cpp
 OBJECTS=$(SOURCE:.cpp=.o)
 OUT=collar
 
